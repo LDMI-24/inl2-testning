@@ -28,19 +28,23 @@ In the end they all passed easily, and the results can be seen below.
 ## Test 2 ✔️
 ### Can add a new Todo
 [Link to test 2](./cypress/e2e/todo-test/todo.cy.ts#L25)
+
 ![Todo App E2E results - test 2](./docs/images/test2-can-add-new-todo.JPG)
 
 ## Test 3 ✔️
 ### Can set Todo to "Done" 
 [Link to test 3](./cypress/e2e/todo-test/todo.cy.ts#L37)
+
 ![Todo App E2E results - test 3](./docs/images/test3-can-set-todo-to-done.JPG)
 
 ## Test 4 ✔️
 ### Can set Todo to "Not Done" 
 [Link to test 4](./cypress/e2e/todo-test/todo.cy.ts#L49)
+
 ![Todo App E2E results - test 4](./docs/images/test4-can-set-todo-to-not-done.JPG)
 
 ## Test 5 ✔️
 ### Can delete a todo that is marked as "Done"
 [Link to test 5](./cypress/e2e/todo-test/todo.cy.ts#L65)
+
 ![Todo App E2E results - test 5](./docs/images/test5-can-delete-todo-if-done.JPG)
