@@ -6,9 +6,7 @@ import { Todos } from "./Todos";
 
 
 export const TodoApp = () => {
-  //For testing example data, clear localStorage first by using this:
-  //localStorage.removeItem("todos")
-  // Or clear it manually via the browser, but that is not always convinient
+
   const stored = localStorage.getItem("todos")
 
   const [state, setState] = useState<ITodosContext>({

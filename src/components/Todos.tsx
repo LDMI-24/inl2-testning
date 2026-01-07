@@ -17,7 +17,7 @@ export const Todos = () => {
 
   return (
     <>
-      <ul className="Todos">
+      <ul className="todos">
         {sortedTodos.map((t) => 
         <li key={t.id} className={`todo ${t.isDone ? "done" : ""}`}>       
           <h2>{t.title}</h2>
