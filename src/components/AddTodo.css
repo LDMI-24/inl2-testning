@@ -1,0 +1,50 @@
+.todoTitle {
+  color: white;
+  align-self: center;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  line-height: 1;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  
+  label {
+    color: white;
+    font-size: 1.5rem;
+  }
+  input {  
+    font-size: 1.2rem;
+    border-radius: 20px;
+    align-self: center;
+    height: 2rem;
+    padding: 0.8rem;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+
+    input {
+      width: 50%;
+    }
+  }
+
+  .description {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    
+    input {
+      width: 80%;
+  
+    }
+  }
+
+  button {
+    align-self: center;
+    width: 6rem;
+  }
+}
